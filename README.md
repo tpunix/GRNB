@@ -11,15 +11,15 @@ GRNB是一个很小很简单的用于X86的bootloader. 它可以完成GRUB的一
 但GRNB不准备去替代GRUB/GRUB4DOS. 那太复杂了. 它就是一个玩具.
 
 目前GRNB可以:
-    识别MBR/GPT分区
-    访问FAT/NTFS文件系统
-    启动ELF文件
-    chainloader其他系统
+    识别MBR/GPT分区.
+    访问FAT/NTFS文件系统.
+    启动ELF文件.
+    chainloader其他系统.
 
 TODO:
-    EXT文件系统
-    启动linux
-    启动更多类型的系统
-    网络TFTP启动
+    EXT文件系统.
+    启动linux.
+    启动更多类型的系统.
+    网络TFTP启动.
 
 
