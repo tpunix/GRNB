@@ -1,52 +1,15 @@
-# Prerequisites
-*.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+objs/
 
-# Precompiled Headers
-*.gch
-*.pch
+mbr
+mbr.bin
+dump.txt
+grnb
+grnb.bin
+grnb.tlz
+tools/*.exe
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+test/testdisk.img
+test/testgrub.bin
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf

@@ -1,0 +1,16 @@
+# GRNB menu
+timeout 5
+default 0
+
+title Boot DOS
+	chain (hd0,0)+1
+
+title Boot Vxworks
+	kernel /vxWorks
+
+title Boot GRUB4DOS
+	chain /grldr
+
+title Command Line
+	shell
+
