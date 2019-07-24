@@ -11,5 +11,5 @@ grnb.tlz
 tools/*.exe
 
 test/testdisk.img
-test/testgrub.bin
+test/testgrnb.bin
 
